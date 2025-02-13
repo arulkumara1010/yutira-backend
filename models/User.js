@@ -37,7 +37,7 @@ const userSchema = new Schema({
     type: String,
   },
   year: {
-    type: Number,
+    type: String,
   },
   phone: {
     type: String,
