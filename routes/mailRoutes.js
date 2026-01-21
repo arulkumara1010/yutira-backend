@@ -6,12 +6,10 @@ import { paymentSuccessTemplate } from "../template-generators/paymentSuccess.js
 import { registrationConfirmTemplate } from "../template-generators/registrationConfirm.js";
 import { paymentRemainderTemplate } from "../template-generators/paymentRemainder.js";
 
-// const MAIL_USER = "noreply@psgkriya.in";
-// const MAIL_PASSWORD = "#kriya2023";
 const router = Router();
 
 const MAIL_USER = "cea.civil@psgtech.ac.in";
-const MAIL_PASSWORD = "civil@2025";
+const MAIL_PASSWORD = "";
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
